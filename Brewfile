@@ -64,7 +64,4 @@ cask 'font-roboto'
 
 # Mac App Store
 mas 'Giphy Capture', id: 668208984
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
-mas 'Numbers', id: 409201541
 mas 'Bear', id: 1091189122
