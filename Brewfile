@@ -35,6 +35,7 @@ brew 'nginx'
 brew 'node'
 brew 'redis'
 brew 'rust'
+brew 'hyper'
 
 # Apps
 cask 'discord'
