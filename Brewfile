@@ -11,10 +11,10 @@ brew 'ffmpeg'
 brew 'gh'
 brew 'git'
 brew 'gnupg'
-brew 'yubikey-personalization'
-brew 'hopenpgp-tools'
-brew 'ykman'
-brew 'pinentry-mac'
+brew 'yubikey-personalization' # Yubikey
+brew 'hopenpgp-tools' # Yubikey
+brew 'ykman' # Yubikey
+brew 'pinentry-mac' # Yubikey
 brew 'grep'
 brew 'httpie'
 brew 'hub'
@@ -37,6 +37,7 @@ brew 'meilisearch'
 brew 'mysql'
 brew 'nginx'
 brew 'node'
+brew 'watchman' # React Native
 brew 'redis'
 brew 'rust'
 brew 'hyper'
