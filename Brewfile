@@ -63,6 +63,7 @@ cask 'zoom'
 cask 'dropbox'
 cask 'bitwarden'
 cask 'fork'
+cask 'android-studio'
 
 # Fonts
 cask 'font-lato'
