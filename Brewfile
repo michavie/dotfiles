@@ -4,6 +4,7 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
+tap 'homebrew/services'
 
 # Binaries
 brew 'coreutils' # Those that come with macOS are outdated
@@ -34,11 +35,11 @@ brew 'php'
 brew 'composer'
 brew 'imagemagick'
 brew 'meilisearch'
-brew 'mysql'
+brew 'mysql', restart_service: true
 brew 'nginx'
 brew 'node'
 brew 'watchman' # React Native
-brew 'redis'
+brew 'redis', restart_service: true
 brew 'rust'
 brew 'hyper'
 
