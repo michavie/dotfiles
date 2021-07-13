@@ -67,6 +67,7 @@ cask 'bitwarden'
 cask 'android-studio'
 cask 'grammarly'
 cask 'obsidian'
+cask 'anydesk'
 
 # Fonts
 cask 'font-lato'
