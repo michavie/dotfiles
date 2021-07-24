@@ -68,6 +68,7 @@ cask 'android-studio'
 cask 'grammarly'
 cask 'obsidian'
 cask 'anydesk'
+cask 'keybase'
 
 # Fonts
 cask 'font-lato'
