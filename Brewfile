@@ -69,6 +69,7 @@ cask 'grammarly'
 cask 'obsidian'
 cask 'anydesk'
 cask 'keybase'
+cask 'figma'
 
 # Fonts
 cask 'font-lato'
