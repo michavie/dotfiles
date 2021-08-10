@@ -9,8 +9,8 @@ tap 'homebrew/services'
 # Binaries
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
-brew 'gh'
 brew 'git'
+brew 'gh'
 brew 'gnupg'
 brew 'yubikey-personalization' # Yubikey
 brew 'hopenpgp-tools' # Yubikey
@@ -79,3 +79,4 @@ cask 'font-roboto'
 # Mac App Store
 mas 'Giphy Capture', id: 668208984
 mas 'Bear', id: 1091189122
+mas 'Save to Pocket', id: 1477385213
