@@ -70,6 +70,7 @@ cask 'obsidian'
 cask 'anydesk'
 cask 'keybase'
 cask 'figma'
+cask 'notion'
 
 # Fonts
 cask 'font-lato'
