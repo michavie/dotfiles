@@ -15,6 +15,7 @@ alias a="php artisan"
 alias afresh="php artisan migrate:fresh --seed"
 
 # PHP
+alias c="composer"
 alias cfresh="rem -rf vendor/ composer.lock && composer i"
 
 # JS
