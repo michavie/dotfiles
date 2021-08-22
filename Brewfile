@@ -71,6 +71,7 @@ cask 'anydesk'
 cask 'keybase'
 cask 'figma'
 cask 'notion'
+cask 'slack'
 
 # Fonts
 cask 'font-lato'
