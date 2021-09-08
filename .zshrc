@@ -67,3 +67,8 @@ source $ZSH/oh-my-zsh.sh
 # You may need to manually set your language environment
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+
+# React Native
+export ANDROID_SDK=/Users/micha/Library/Android/sdk
+export PATH=/Users/micha/Library/Android/sdk/platform-tools:$PATH
