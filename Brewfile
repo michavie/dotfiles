@@ -73,6 +73,7 @@ cask 'figma'
 cask 'notion'
 cask 'slack'
 cask 'react-native-debugger'
+cask 'iterm2'
 
 # Fonts
 cask 'font-lato'
