@@ -72,6 +72,7 @@ cask 'keybase'
 cask 'figma'
 cask 'notion'
 cask 'slack'
+cask 'react-native-debugger'
 
 # Fonts
 cask 'font-lato'
