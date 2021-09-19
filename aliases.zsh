@@ -17,6 +17,7 @@ alias afresh="php artisan migrate:fresh --seed"
 # PHP
 alias c="composer"
 alias cfresh="rem -rf vendor/ composer.lock && composer i"
+alias pest="./vendor/bin/pest"
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
