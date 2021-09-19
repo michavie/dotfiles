@@ -42,7 +42,6 @@ brew 'watchman' # React Native
 brew 'cocoapods' # iOS App Development
 brew 'redis', restart_service: true
 brew 'rust'
-brew 'hyper'
 
 # Apps
 cask 'discord'
