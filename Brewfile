@@ -10,7 +10,6 @@ tap 'homebrew/services'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
 brew 'git'
-brew 'gh'
 brew 'gnupg'
 brew 'yubikey-personalization' # Yubikey
 brew 'hopenpgp-tools' # Yubikey
@@ -38,9 +37,10 @@ brew 'mysql', restart_service: true
 brew 'nginx'
 brew 'node'
 brew 'watchman' # React Native
-brew 'cocoapods' # iOS App Development
+brew 'cocoapods'
 brew 'redis', restart_service: true
 brew 'rust'
+brew 'gh'
 
 # Apps
 cask 'discord'
