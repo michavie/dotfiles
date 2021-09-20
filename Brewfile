@@ -1,6 +1,5 @@
 # Taps
 tap 'homebrew/cask'
-tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
@@ -72,11 +71,6 @@ cask 'notion'
 cask 'slack'
 cask 'react-native-debugger'
 cask 'iterm2'
-
-# Fonts
-cask 'font-lato'
-cask 'font-open-sans'
-cask 'font-roboto'
 
 # Mac App Store
 mas 'Giphy Capture', id: 668208984
