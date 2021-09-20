@@ -12,10 +12,6 @@ First, go through the checklist below to make sure you didn't forget anything be
 - Did you remember to export important data from your local database?
 - Did you update [mackup](https://github.com/lra/mackup) to the latest version and ran `mackup backup`?
 
-### Installing macOS cleanly
-
-After going to our checklist above and making sure you backed everything up, we're going to cleanly install macOS with the latest release. Follow [this article](https://www.imore.com/how-do-clean-install-macos) to cleanly install the latest macOS version.
-
 ### Setting up your Mac
 
 If you did all of the above you may now follow these install instructions to setup a new Mac.
