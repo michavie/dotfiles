@@ -18,7 +18,6 @@ brew 'ykman' # Yubikey
 brew 'pinentry-mac' # Yubikey
 brew 'grep'
 brew 'httpie'
-brew 'hub'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config'
