@@ -40,6 +40,7 @@ brew 'cocoapods'
 brew 'redis', restart_service: true
 brew 'rust'
 brew 'gh'
+brew 'wget'
 
 # Apps
 cask 'discord'
