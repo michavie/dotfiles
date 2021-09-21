@@ -9,3 +9,5 @@ export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 
 export ANDROID_SDK=/Users/micha/Library/Android/sdk
 export PATH=/Users/micha/Library/Android/sdk/platform-tools:$PATH
+
+export PATH="/Users/micha/elrondsdk:$PATH"	# elrond-sdk
