@@ -42,8 +42,8 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
 # Removes Downloads folder and symlinks the iClouds Download folder
-rm -r ~/Downloads
-ln -s $HOME/Library/Mobile\ Documents/com~apple~CloudDocs/Downloads ~/Downloads
+rm -r $HOME/Downloads
+ln -s $HOME/Library/Mobile\ Documents/com~apple~CloudDocs/Downloads $HOME/Downloads
 
 # Set macOS preferences - we will run this last because this will reload the shell
 source .macos
