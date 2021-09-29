@@ -2,7 +2,6 @@
 alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
 alias reloadshell="source $HOME/.zshrc"
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
-alias c="clear"
 
 # Directories
 alias todots="cd $DOTFILES"
