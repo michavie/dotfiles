@@ -25,6 +25,7 @@ pecl install imagick memcached redis swoole
 /usr/local/bin/composer global require laravel/valet
 /usr/local/bin/composer global require beyondcode/expose
 /usr/local/bin/composer global require laravel/vapor-cli
+/usr/local/bin/composer global require laravel/forge-cli
 
 # Create a Sites directory
 mkdir $HOME/Code
