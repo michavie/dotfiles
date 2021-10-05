@@ -22,7 +22,9 @@ mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_passwor
 pecl install imagick memcached redis swoole
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/valet beyondcode/expose
+/usr/local/bin/composer global require laravel/valet
+/usr/local/bin/composer global require beyondcode/expose
+/usr/local/bin/composer global require laravel/vapor-cli
 
 # Create a Sites directory
 mkdir $HOME/Code
