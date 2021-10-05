@@ -6,10 +6,13 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # Path
-export PATH=$HOME/.composer/vendor/bin:$PATH
-export PATH=/opt/homebrew/opt/ruby/bin:$PATH
-export PATH=/Users/micha/Library/Android/sdk/platform-tools:$PATH
-export PATH=/Users/micha/elrondsdk:$PATH
+export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+export PATH="$HOME/.node/bin:$PATH"
+export PATH="node_modules/.bin:vendor/bin:$PATH"
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export PATH="/Users/micha/Library/Android/sdk/platform-tools:$PATH"
+export PATH="/Users/micha/elrondsdk:$PATH"
 
 # Aliases
 alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
