@@ -1,33 +1,33 @@
-# Taps
+# taps
 tap 'homebrew/cask'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
 tap 'homebrew/services'
 
-# Binaries
-brew 'coreutils' # Those that come with macOS are outdated
+# binaries
+brew 'coreutils' # those that come with macOS are outdated
 brew 'ffmpeg'
 brew 'git'
 brew 'gnupg'
-brew 'yubikey-personalization' # Yubikey
-brew 'hopenpgp-tools' # Yubikey
-brew 'ykman' # Yubikey
-brew 'pinentry-mac' # Yubikey
+brew 'yubikey-personalization' # yubikey
+brew 'hopenpgp-tools' # yubikey
+brew 'ykman' # yubikey
+brew 'pinentry-mac' # yubikey
 brew 'grep'
 brew 'httpie'
 brew 'mackup'
-brew 'mas' # Mac App Store manager
+brew 'mas' # mac app store manager
 brew 'pkg-config'
 
-# Spatie Medialibrary
+# spatie medialibrary
 brew 'jpegoptim'
 brew 'optipng'
 brew 'pngquant'
 brew 'svgo'
 brew 'gifsicle'
 
-# Development
+# development
 brew 'php'
 brew 'composer'
 brew 'imagemagick'
@@ -35,14 +35,14 @@ brew 'meilisearch'
 brew 'mysql', restart_service: true
 brew 'nginx'
 brew 'node'
-brew 'watchman' # React Native
+brew 'watchman'
 brew 'cocoapods'
 brew 'redis', restart_service: true
 brew 'rust'
 brew 'gh'
 brew 'wget'
 
-# Apps
+# apps
 cask 'discord'
 cask 'firefox'
 cask 'google-chrome'
@@ -61,19 +61,11 @@ cask 'helo'
 cask 'visual-studio-code'
 cask 'zoom'
 cask 'dropbox'
-cask 'bitwarden'
 cask 'android-studio'
 cask 'grammarly'
 cask 'obsidian'
-cask 'anydesk'
-cask 'keybase'
-cask 'figma'
-cask 'notion'
-cask 'slack'
-cask 'react-native-debugger'
-cask 'iterm2'
 
-# Mac App Store
+# mac app store
 mas 'Giphy Capture', id: 668208984
 mas 'Bear', id: 1091189122
 mas 'Save to Pocket', id: 1477385213
