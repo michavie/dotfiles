@@ -11,8 +11,9 @@ export PATH="$HOME/.node/bin:$PATH"
 export PATH="node_modules/.bin:vendor/bin:$PATH"
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
-export PATH="/Users/micha/Library/Android/sdk/platform-tools:$PATH"
-export PATH="/Users/micha/elrondsdk:$PATH"
+export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
+export PATH="$HOME/elrondsdk:$PATH"
+export PATH="$HOME/Library/Python/3.9/bin:${PATH}"
 
 # Aliases
 alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
