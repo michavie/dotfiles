@@ -64,6 +64,7 @@ cask 'dropbox'
 cask 'android-studio'
 cask 'grammarly'
 cask 'obsidian'
+cask 'fork'
 
 # mac app store
 mas 'Giphy Capture', id: 668208984
