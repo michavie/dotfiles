@@ -38,7 +38,6 @@ brew 'node'
 brew 'watchman'
 brew 'cocoapods'
 brew 'redis', restart_service: true
-brew 'rust'
 brew 'gh'
 brew 'wget'
 
