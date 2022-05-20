@@ -4,6 +4,7 @@ export ANDROID_SDK=/Users/micha/Library/Android/sdk
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+export GPG_TTY=$(tty)
 
 # path
 export PATH="/opt/homebrew/bin:$PATH"
