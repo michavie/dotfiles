@@ -29,6 +29,7 @@ brew 'gifsicle'
 
 # development
 brew 'go'
+brew 'rust'
 brew 'php'
 brew 'composer'
 brew 'imagemagick'
