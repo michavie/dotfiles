@@ -28,6 +28,7 @@ brew 'svgo'
 brew 'gifsicle'
 
 # development
+brew 'starship'
 brew 'go'
 brew 'rust'
 brew 'php'

@@ -1,3 +1,5 @@
+eval "$(starship init zsh)"
+
 # envs
 export DOTFILES=$HOME/.dotfiles
 export ANDROID_SDK=/Users/micha/Library/Android/sdk
