@@ -28,6 +28,7 @@ brew 'svgo'
 brew 'gifsicle'
 
 # development
+brew 'go'
 brew 'php'
 brew 'composer'
 brew 'imagemagick'
