@@ -41,9 +41,6 @@ alias tolib="cd $HOME/Library"
 alias tocode="cd $HOME/Code"
 
 alias a="php artisan"
-
-alias c="composer"
-alias cfresh="rem -rf vendor/ composer.lock && composer i"
 alias pest="./vendor/bin/pest"
+alias vapor="./vendor/bin/vapor"
 
-alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
