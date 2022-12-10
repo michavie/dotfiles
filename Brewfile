@@ -67,6 +67,7 @@ cask 'android-studio'
 cask 'grammarly'
 cask 'obsidian'
 cask 'fork'
+cask 'blender'
 
 # mac app store
 mas 'Giphy Capture', id: 668208984
