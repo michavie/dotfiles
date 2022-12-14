@@ -21,6 +21,10 @@ pecl install imagick memcached redis swoole
 $HOME/.composer/vendor/bin/valet install
 $HOME/.composer/vendor/bin/valet park $HOME/Code
 
+# install global npm packages
+npm install -g ts-node
+npm install -g npm-check-updates
+
 # cloning repos
 git clone git@github.com:michavie/michavie.com.git $CODE/michavie.com
 
