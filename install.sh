@@ -15,27 +15,8 @@ cd ~/.dotfiles
 brew tap homebrew/bundle
 brew bundle
 
-# set default mysql root password and auth type
-mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'root'; FLUSH PRIVILEGES;"
-
-# install php extensions with pecl
-pecl install imagick memcached redis swoole
-
-# install global composer packages
-/usr/local/bin/composer global require laravel/valet
-/usr/local/bin/composer global require beyondcode/expose
-/usr/local/bin/composer global require laravel/vapor-cli
-/usr/local/bin/composer global require laravel/forge-cli
-
-# create a sites directory
-mkdir $HOME/Code
-
-# install laravel valet
-$HOME/.composer/vendor/bin/valet install
-$HOME/.composer/vendor/bin/valet park $HOME/Code
-
-# clone github repositories
-./clone.sh
+# set up development environment
+./dev.sh
 
 # removes .zshrc from $home (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
