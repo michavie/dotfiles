@@ -29,6 +29,8 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
+export PATH="${HOME}/multiversx-sdk:${PATH}"
+
 # aliases
 alias gl="git log --pretty=format:\"%h %s\" --graph"
 alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
