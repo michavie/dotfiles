@@ -36,3 +36,4 @@ git clone PeerMeHQ/mx-sdk-php $CODE/peerme--mx-sdk-php
 git clone PeerMeHQ/mx-sdk-laravel $CODE/peerme--mx-sdk-laravel
 git clone PeerMeHQ/mx-sdk-php-network-providers $CODE/peerme--mx-sdk-php-network-providers
 git clone PeerMeHQ/extensions $CODE/peerme--extensions
+git clone PeerMeHQ/know $CODE/peerme--know
