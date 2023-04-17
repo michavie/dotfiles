@@ -57,6 +57,7 @@ cask 'obsidian'
 cask 'fork'
 cask 'blender'
 cask 'arc'
+cask 'google-chrome'
 
 # mac app store
 mas 'Bear', id: 1091189122
