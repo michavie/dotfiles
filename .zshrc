@@ -45,6 +45,7 @@ alias tocode="cd $HOME/Code"
 alias a="php artisan"
 alias pest="./vendor/bin/pest"
 alias vapor="./vendor/bin/vapor"
+alias py='python3.11'
 
 alias peermebot='function _peermebot(){ cd ~/Code/peerme--api && vapor command mainnet --command "bot:broadcast \"$1\""; };_peermebot'
 
