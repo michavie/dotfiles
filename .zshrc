@@ -1,5 +1,3 @@
-eval "$(starship init zsh)"
-
 # envs
 export DOTFILES=$HOME/.dotfiles
 export ANDROID_SDK=/Users/micha/Library/Android/sdk
@@ -48,4 +46,3 @@ alias vapor="./vendor/bin/vapor"
 alias py='python3.11'
 
 alias peermebot='function _peermebot(){ cd ~/Code/peerme--api && vapor command mainnet --command "bot:broadcast \"$1\""; };_peermebot'
-

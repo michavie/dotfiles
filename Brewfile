@@ -28,13 +28,11 @@ brew 'svgo'
 brew 'gifsicle'
 
 # development
-brew 'starship'
 brew 'go'
 brew 'rust'
 brew 'php'
 brew 'composer'
 brew 'imagemagick'
-brew 'meilisearch'
 brew 'mysql', restart_service: true
 brew 'nginx'
 brew 'node'
@@ -45,31 +43,19 @@ brew 'gh'
 brew 'wget'
 
 # apps
-cask 'discord'
-cask 'firefox'
-cask 'google-chrome'
-cask 'brave-browser'
-cask 'github'
 cask 'gpg-suite'
 cask 'imageoptim'
 cask 'postman'
 cask 'ray'
-cask 'screenflow'
 cask 'tableplus'
-cask 'telegram-desktop'
 cask 'tinkerwell'
 cask 'invoker'
 cask 'helo'
 cask 'visual-studio-code'
-cask 'zoom'
-cask 'dropbox'
 cask 'android-studio'
-cask 'grammarly'
 cask 'obsidian'
 cask 'fork'
 cask 'blender'
 
 # mac app store
-mas 'Giphy Capture', id: 668208984
 mas 'Bear', id: 1091189122
-mas 'Save to Pocket', id: 1477385213
