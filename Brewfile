@@ -56,6 +56,7 @@ cask 'android-studio'
 cask 'obsidian'
 cask 'fork'
 cask 'blender'
+cask 'arc'
 
 # mac app store
 mas 'Bear', id: 1091189122
