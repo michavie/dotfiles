@@ -28,8 +28,11 @@ npm install -g npm-check-updates
 # cloning repos
 git clone git@github.com:michavie/michavie.com.git $CODE/michavie.com
 
-git clone git@github.com:Superciety/elrond-sdk-laravel.git $CODE/superciety--elrond-sdk-laravel
-git clone git@github.com:Superciety/front-pwa.git $CODE/superciety--pwa
-git clone git@github.com:Superciety/api.git $CODE/superciety--api
-git clone git@github.com:Superciety/identity-sc.git $CODE/superciety--identity-sc
-git clone git@github.com:Superciety/fellowships-sc.git $CODE/superciety--fellowships-sc
+git clone PeerMeHQ/dao-sc $CODE/peerme--dao-sc
+git clone PeerMeHQ/dao-plug-template-sc $CODE/peerme--dao-plug-template-sc
+git clone PeerMeHQ/identity-sc $CODE/peerme--identity-sc
+git clone PeerMeHQ/snippets $CODE/peerme--snippets
+git clone PeerMeHQ/mx-sdk-php $CODE/peerme--mx-sdk-php
+git clone PeerMeHQ/mx-sdk-laravel $CODE/peerme--mx-sdk-laravel
+git clone PeerMeHQ/mx-sdk-php-network-providers $CODE/peerme--mx-sdk-php-network-providers
+git clone PeerMeHQ/extensions $CODE/peerme--extensions
