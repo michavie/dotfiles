@@ -5,6 +5,8 @@ echo "Setting up development environment..."
 # create a sites directory
 mkdir $HOME/Code
 
+export CODE=$HOME/Code
+
 # set default mysql root password and auth type
 mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'root'; FLUSH PRIVILEGES;"
 
@@ -28,12 +30,12 @@ npm install -g npm-check-updates
 # cloning repos
 git clone git@github.com:michavie/michavie.com.git $CODE/michavie.com
 
-git clone PeerMeHQ/dao-sc $CODE/peerme--dao-sc
-git clone PeerMeHQ/dao-plug-template-sc $CODE/peerme--dao-plug-template-sc
-git clone PeerMeHQ/identity-sc $CODE/peerme--identity-sc
-git clone PeerMeHQ/snippets $CODE/peerme--snippets
-git clone PeerMeHQ/mx-sdk-php $CODE/peerme--mx-sdk-php
-git clone PeerMeHQ/mx-sdk-laravel $CODE/peerme--mx-sdk-laravel
-git clone PeerMeHQ/mx-sdk-php-network-providers $CODE/peerme--mx-sdk-php-network-providers
-git clone PeerMeHQ/extensions $CODE/peerme--extensions
-git clone PeerMeHQ/know $CODE/peerme--know
+git clone git@github.com:PeerMeHQ/dao-sc $CODE/peerme--dao-sc
+git clone git@github.com:PeerMeHQ/dao-plug-template-sc $CODE/peerme--dao-plug-template-sc
+git clone git@github.com:PeerMeHQ/identity-sc $CODE/peerme--identity-sc
+git clone git@github.com:PeerMeHQ/snippets $CODE/peerme--snippets
+git clone git@github.com:PeerMeHQ/mx-sdk-php $CODE/peerme--mx-sdk-php
+git clone git@github.com:PeerMeHQ/mx-sdk-laravel $CODE/peerme--mx-sdk-laravel
+git clone git@github.com:PeerMeHQ/mx-sdk-php-network-providers $CODE/peerme--mx-sdk-php-network-providers
+git clone git@github.com:PeerMeHQ/extensions $CODE/peerme--extensions
+git clone git@github.com:PeerMeHQ/know $CODE/peerme--know
