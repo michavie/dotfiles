@@ -1,3 +1,5 @@
+export GPG_TTY=$(tty)
+
 # envs
 export DOTFILES=$HOME/.dotfiles
 export ANDROID_SDK=/Users/micha/Library/Android/sdk
@@ -18,16 +20,15 @@ export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
 export PATH="$HOME/.node/bin:$PATH"
 export PATH="node_modules/.bin:vendor/bin:$PATH"
 export PATH="$HOME/.composer/vendor/bin:$PATH"
-export PATH="$HOME/elrondsdk:$PATH"
 export PATH="$HOME/Library/Python/3.9/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="${HOME}/multiversx-sdk:${PATH}"
 
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
-
-export PATH="${HOME}/multiversx-sdk:${PATH}"
 
 # aliases
 alias gl="git log --pretty=format:\"%h %s\" --graph"
@@ -44,5 +45,3 @@ alias a="php artisan"
 alias pest="./vendor/bin/pest"
 alias vapor="./vendor/bin/vapor"
 alias py='python3.11'
-
-alias peermebot='function _peermebot(){ cd ~/Code/peerme--api && vapor command mainnet --command "bot:broadcast \"$1\""; };_peermebot'
