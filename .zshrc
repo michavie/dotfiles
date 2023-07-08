@@ -16,6 +16,9 @@ export LC_ALL="en_US.UTF-8"
 export LANG="en_US.UTF-8"
 export GPG_TTY="$(tty)"
 
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
 # path
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
