@@ -1,4 +1,5 @@
 export GPG_TTY="$(tty)"
+export EDITOR="code -w"
 
 # envs
 export SNIPPETS_SECURE_SIGN_METHOD=(--ledger)
