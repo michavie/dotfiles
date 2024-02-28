@@ -48,6 +48,6 @@ alias tolib="cd \"$HOME/Library\""
 alias tocode="cd \"$HOME/Code\""
 
 alias a="php artisan"
-alias pest="./vendor/bin/pest"
+alias pest="./vendor/bin/pest -p"
 alias vapor="./vendor/bin/vapor"
 alias py='python3.11'
