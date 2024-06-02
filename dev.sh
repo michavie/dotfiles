@@ -19,6 +19,8 @@ npm install -g ts-node
 npm install -g npm-check-updates
 
 # cloning repos
+git clone git@github.com:michavie/sc-playground.git $CODE/sc-playground
+
 git clone git@github.com:PeerMeHQ/dao-sc $CODE/peerme--dao-sc
 git clone git@github.com:PeerMeHQ/dao-plug-template-sc $CODE/peerme--dao-plug-template-sc
 git clone git@github.com:PeerMeHQ/identity-sc $CODE/peerme--identity-sc
@@ -30,6 +32,7 @@ git clone git@github.com:PeerMeHQ/mx-strategy-contribution-token-sc.git $CODE/pe
 git clone git@github.com:PeerMeHQ/mx-strategy-contribution-tokenless-sc.git $CODE/peerme--strategy-contribution-tokenless-sc
 git clone git@github.com:PeerMeHQ/earn-sc.git $CODE/peerme--earn-sc
 git clone git@github.com:PeerMeHQ/bounties-sc.git $CODE/peerme--bounties-sc
+git clone git@github.com:PeerMeHQ/assets.git $CODE/peerme--assets
 
 git clone git@github.com:SpawnableHQ/api.git $CODE/spawnable--api
 git clone git@github.com:SpawnableHQ/pwa.git $CODE/spawnable--pwa
