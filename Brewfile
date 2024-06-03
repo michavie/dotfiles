@@ -2,20 +2,13 @@
 tap 'homebrew/cask'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
-tap 'nicoverbruggen/homebrew-cask'
 tap 'homebrew/services'
 
 # binaries
 brew 'coreutils' # those that come with macOS are outdated
-brew 'ffmpeg'
 brew 'git'
 brew 'gnupg'
-brew 'yubikey-personalization' # yubikey
-brew 'hopenpgp-tools' # yubikey
-brew 'ykman' # yubikey
-brew 'pinentry-mac' # yubikey
 brew 'grep'
-brew 'httpie'
 brew 'mackup'
 brew 'pkg-config'
 
