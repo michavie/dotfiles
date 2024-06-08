@@ -16,9 +16,6 @@ export LC_ALL="en_US.UTF-8"
 export LANG="en_US.UTF-8"
 export GPG_TTY="$(tty)"
 
-export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
-
 # path
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
@@ -40,7 +37,6 @@ export PATH="$PATH:$ANDROID_HOME/platform-tools"
 alias gl="git log --pretty=format:\"%h %s\" --graph"
 alias copyssh="pbcopy < \"$HOME/.ssh/id_ed25519.pub\""
 alias reload="source \"$HOME/.zshrc\""
-alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 
 alias todots="cd \"$DOTFILES\""
 alias tossh="cd \"$HOME/.ssh\""
@@ -51,3 +47,18 @@ alias a="php artisan"
 alias pest="./vendor/bin/pest -p"
 alias vapor="./vendor/bin/vapor"
 alias py='python3.11'
+
+
+# Herd injected PHP 8.3 configuration.
+export HERD_PHP_83_INI_SCAN_DIR="/Users/michavie/Library/Application Support/Herd/config/php/83/"
+
+
+# Herd injected PHP binary.
+export PATH="/Users/michavie/Library/Application Support/Herd/bin/":$PATH
+
+
+# Herd injected NVM configuration
+export NVM_DIR="/Users/michavie/Library/Application Support/Herd/config/nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+[[ -f "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh" ]] && builtin source "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh"

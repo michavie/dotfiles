@@ -16,7 +16,7 @@ brew 'pkg-config'
 brew 'go'
 brew 'rust'
 brew 'mysql', restart_service: true
-brew 'herd'
+brew 'gh'
 
 # apps
 cask 'gpg-suite'
@@ -29,3 +29,5 @@ cask 'android-studio'
 cask 'obsidian'
 cask 'arc'
 cask 'raycast'
+cask 'herd'
+cask 'fork'

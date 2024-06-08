@@ -11,8 +11,8 @@ export CODE=$HOME/Code
 mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'root'; FLUSH PRIVILEGES;"
 
 # install global composer packages
-/usr/local/bin/composer global require laravel/vapor-cli
-/usr/local/bin/composer global require laravel/forge-cli
+composer global require laravel/vapor-cli
+composer global require laravel/forge-cli
 
 # install global npm packages
 npm install -g ts-node
@@ -21,6 +21,9 @@ npm install -g npm-check-updates
 # cloning repos
 git clone git@github.com:michavie/sc-playground.git $CODE/sc-playground
 
+git clone git@github.com:PeerMeHQ/api $CODE/peerme--api
+git clone git@github.com:PeerMeHQ/core-ts $CODE/peerme--core-ts
+git clone git@github.com:PeerMeHQ/pwa $CODE/peerme--pwa
 git clone git@github.com:PeerMeHQ/dao-sc $CODE/peerme--dao-sc
 git clone git@github.com:PeerMeHQ/dao-plug-template-sc $CODE/peerme--dao-plug-template-sc
 git clone git@github.com:PeerMeHQ/identity-sc $CODE/peerme--identity-sc
