@@ -62,3 +62,12 @@ export NVM_DIR="/Users/michavie/Library/Application Support/Herd/config/nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 [[ -f "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh" ]] && builtin source "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh"
+
+# Created by `pipx` on 2024-06-16 13:49:29
+export PATH="$PATH:/Users/michavie/.local/bin"
+eval "$(rbenv init -)"
+
+
+# Herd injected PHP 8.4 configuration.
+export HERD_PHP_84_INI_SCAN_DIR="/Users/michavie/Library/Application Support/Herd/config/php/84/"
+export PATH="$PATH:/Users/michavie/.space"
