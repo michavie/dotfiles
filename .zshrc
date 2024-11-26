@@ -47,6 +47,7 @@ alias a="php artisan"
 alias pest="./vendor/bin/pest -p"
 alias vapor="./vendor/bin/vapor"
 alias py='python3.11'
+alias commit='git commit -m'
 
 
 # Herd injected PHP 8.3 configuration.
