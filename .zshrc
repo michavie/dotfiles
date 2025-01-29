@@ -2,8 +2,6 @@ export GPG_TTY="$(tty)"
 export EDITOR="code -w"
 
 # envs
-export SNIPPETS_SECURE_SIGN_METHOD=(--ledger)
-
 export DOTFILES="$HOME/.dotfiles"
 export ANDROID_SDK="/Users/micha/Library/Android/sdk"
 
@@ -46,29 +44,21 @@ alias tocode="cd \"$HOME/Code\""
 alias a="php artisan"
 alias pest="./vendor/bin/pest -p"
 alias vapor="./vendor/bin/vapor"
-alias py='python3.11'
+alias py="python3.11"
 alias commit='git commit -m'
-
+alias connect_server="ssh vleap@leapserver.local"
 
 # Herd injected PHP 8.3 configuration.
 export HERD_PHP_83_INI_SCAN_DIR="/Users/michavie/Library/Application Support/Herd/config/php/83/"
 
-
 # Herd injected PHP binary.
 export PATH="/Users/michavie/Library/Application Support/Herd/bin/":$PATH
-
-
-# Herd injected NVM configuration
-export NVM_DIR="/Users/michavie/Library/Application Support/Herd/config/nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-
-[[ -f "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh" ]] && builtin source "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh"
 
 # Created by `pipx` on 2024-06-16 13:49:29
 export PATH="$PATH:/Users/michavie/.local/bin"
 eval "$(rbenv init -)"
 
-
 # Herd injected PHP 8.4 configuration.
 export HERD_PHP_84_INI_SCAN_DIR="/Users/michavie/Library/Application Support/Herd/config/php/84/"
 export PATH="$PATH:/Users/michavie/.space"
+
