@@ -25,6 +25,10 @@ export PATH="$HOME/Library/Python/3.11/bin:${PATH}"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="${HOME}/multiversx-sdk:${PATH}"
 
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
 export ANDROID_HOME="$HOME/Library/Android/sdk"
 export PATH="$PATH:$ANDROID_HOME/emulator"
 export PATH="$PATH:$ANDROID_HOME/tools"
@@ -46,7 +50,10 @@ alias pest="./vendor/bin/pest -p"
 alias vapor="./vendor/bin/vapor"
 alias py="python3.11"
 alias commit='git commit -m'
-alias connect_server="ssh vleap@leapserver.local"
+alias wip='git add . && commit "wip" && git push'
+alias publish='changeset version && git add . && commit "update version" && npm run build && changeset publish && git push'
+alias server="ssh vleap@leapserver.local"
+alias ca="cursor-agent"
 
 # Herd injected PHP 8.3 configuration.
 export HERD_PHP_83_INI_SCAN_DIR="/Users/michavie/Library/Application Support/Herd/config/php/83/"
@@ -62,3 +69,13 @@ eval "$(rbenv init -)"
 export HERD_PHP_84_INI_SCAN_DIR="/Users/michavie/Library/Application Support/Herd/config/php/84/"
 export PATH="$PATH:/Users/michavie/.space"
 
+export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
+
+# pnpm
+export PNPM_HOME="/Users/michavie/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+export PATH="$HOME/.local/bin:$PATH"
